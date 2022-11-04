@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#mainContainer {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+#navigationDiv {
+  width: 20%;
+  /* border: 1px solid black; */
+  height: 100%;
+}
+
+#navContent {
+  width: 90%;
+  height: 100%;
+  /* border: 1px solid blue; */
+  margin: auto;
+}
+
+#topDiv {
+  width: 100%;
+  /* border: 2px solid blue; */
+  /* height: 30%; */
+}
+
+/* Instagram icon styling  */
+#instagramLogoDiv {
+  width: 100%;
+  /* border: 3px soild red; */
+}
+
+#instagramLogoIcon {
+  width: 80%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+
+}
+
+#instagramLogoIcon>img {
+  width: 55%;
+}
+
+#middleDiv {
+  width: 100%;
+
+}
+
+/* All icons styling */
+#middleDiv>a>div {
+
+  height: 50px;
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 30px;
+}
+
+#middleDiv i {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#middleDiv a >div:hover {
+  background-color: rgb(235, 250, 250);
+}
+
+#middleDiv span {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+#bottomDiv {
+  width: 100%;
+  /* border: 3px solid gray; */
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin-top: 20px;
+}
+
+#burderIconDiv {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  /* border: 1px solid red; */
+  width: 220px;
+}
+
+#burderIconDiv:hover {
+  background-color: rgb(235, 250, 250);
+}
+
+#burgerIcon {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#burgerIcon>span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#burderIcon>img {
+  width: 20%;
+}
+
+#contentDiv {
+  width: 90%;
+  height: 100%;
+  border: 4px solid green;
+}
