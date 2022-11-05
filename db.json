@@ -1,19 +1,37 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "json-server",
-            "author": "typicode"
-        }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
-        }
-    ],
-    "profile": {
-        "name": "typicode"
+  "posts": [
+    {
+      "caption": "NEW UPDATE",
+      "id": "3"
+    },
+    {
+      "id": "7",
+      "caption": "data",
+      "imagURL": "https://i.ibb.co/Dwc4tHf/marathi-girls-dp-182.jpg"
+    },
+    {
+      "id": "8",
+      "caption": "jai hindi",
+      "imagURL": "https://i.ibb.co/L9Fc0sp/Whats-App-Image-2022-10-29-at-17-04-58.jpg"
+    },
+    {
+      "id": "10",
+      "caption": "AJJ BLUE HEY PANI PANI",
+      "imagURL": "https://i.ibb.co/JnvLt4C/download.jpg"
+    },
+    {
+      "id": "22",
+      "caption": "button disable",
+      "imagURL": "https://i.ibb.co/QkKb9Rv/Whats-App-Image-2022-10-27-at-23-32-04.jpg"
+    },
+    {
+      "id": "nIrcuGy",
+      "caption": "",
+      "imagURL": "https://i.ibb.co/GPk0TQX/www-instagram-com-3.png"
     }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
 }

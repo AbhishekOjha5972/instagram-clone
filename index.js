@@ -5,7 +5,7 @@ console.log("bhai")
 //1. Appending the data from localhost
 //2. append function need two things 
 // 3. get the place where we have to append our data 
-let dataAppendPlace=document.getElementById('contentDiv');
+let dataAppendPlace=document.getElementById('mainContent');
 const getData=  async()=>{
 
 const myResouse = await fetch (`http://localhost:3000/posts`)

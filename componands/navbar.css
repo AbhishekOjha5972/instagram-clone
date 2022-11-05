@@ -12,12 +12,18 @@ a {
   display: flex;
   height: 100vh;
   width: 100%;
+  /* border: 2px solid blue; */
 }
 
 #navigationDiv {
-  width: 20%;
+  width: 18%;
   /* border: 1px solid black; */
   height: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
+  border-right: 1px solid gray;
+
 }
 
 #navContent {
@@ -25,6 +31,7 @@ a {
   height: 100%;
   /* border: 1px solid blue; */
   margin: auto;
+  /* position: fixed; */
 }
 
 #topDiv {
@@ -120,7 +127,9 @@ a {
 }
 
 #contentDiv {
-  width: 90%;
-  height: 100%;
-  border: 4px solid green;
+  width: 82%;
+  /* height: 100vh; */
+  position: absolute;
+  right: 0;
+  top: 0;
 }

@@ -1,0 +1,79 @@
+#contentDiv{
+    background-color: rgb(245,246,232);
+}
+#childcontentDiv{
+display: flex;
+width: 80%;
+/* border: 5px solid red; */
+justify-content: space-between;
+margin: auto;
+}
+#profileAndSuggestion{
+width: 35%;
+
+}
+#profileAndSuggestion > div{
+    margin-bottom: 10px;
+}
+#mainContent{
+width: 60%;
+}
+
+#mainContent > div{
+    margin-bottom: 10px;
+    border-radius: 30px;
+
+}
+#contentDiv div > img{
+    /* border: 2px solid blue; */
+    width: 100%;
+    border-radius: 15px;
+    }
+
+#userProfile{
+    /* border:  2px solid red; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#splitData{
+    /* border:  1px solid rebeccapurple; */
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 50px;
+    justify-content: space-between;
+}
+#profileImgDiv{
+    width: 30%;
+}
+
+#userNameDiv{
+    /* border: 2px solid black; */
+    font-size: 14px;
+}
+#nameOfUser{
+color: gray;
+}
+#accountSwitch{
+    /* border: 2px solid gold; */
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 14px;
+    color: rgb(70,136,241);
+}
+#suggestionForYou{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+#suggestionForYou div{
+    font-size: 14px;
+}
+#suggestionDiv > div{
+    margin-bottom: 10px;
+}
+
